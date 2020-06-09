@@ -11,9 +11,10 @@ const googleConfig = {
 
 // This scope tells google what information we want to request
 const defaultScope = [
-	'https://www.googleapis.com/auth/calendar',
-	'https://www.googleapis.com/auth/calendar.events'
-]
+  'https://www.googleapis.com/auth/userinfo.email',
+  'https://www.googleapis.com/auth/calendar',
+  'https://www.googleapis.com/auth/calendar.events',
+];
 	
 // Create the google auth object which gives us access to talk to google's apis
 
