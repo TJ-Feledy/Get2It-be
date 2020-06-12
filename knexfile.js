@@ -9,7 +9,8 @@ module.exports = {
       host: "localhost",
       user: "postgres",
       password: "get2it",
-      database: "get2it"
+      database: "get2it",
+      port: "5432"
     },
     useNullAsDefault: true,
     migrations: {
