@@ -6,7 +6,7 @@
 
 # API Documentation
 
-#### 1️⃣ Backend deployed at [🚫name service here]https://get2it.herokuapp.com/api <br>
+#### 1️⃣ Backend deployed at [🚫name service here]https://get2it-be.herokuapp.com/ <br>
 
 ## 1️⃣ Getting started
 
@@ -31,7 +31,7 @@ To get the server running locally:
 ## 2️⃣ Endpoints
 
 #### Register New User
-POST to https://get2it.herokuapp.com/api/auth/register
+POST to https://get2it-be.herokuapp.com/api/auth/register
 
 Takes an object including: { username: "username", password: "pass" }
 
@@ -39,21 +39,21 @@ Returns newly created user object as well as JSON Web Token (JWT)
 
 
 #### Login Existing User
-POST to https://get2it.herokuapp.com/api/auth/login
+POST to https://get2it-be.herokuapp.com/api/auth/login
 
 Takes an object including: { username: "username", password: "pass" }
 
 Returns JWT
 
 #### Edit user info
-PUT to https://get2it.herokuapp.com/api/auth/edit-profile/:id
+PUT to https://get2it-be.herokuapp.com/api/auth/edit-profile/:id
 
 Where :id is user id
 
 Returns 1 for success
 
 #### Create a new task
-POST to https://get2it.herokuapp.com/api/users/:id/tasks
+POST to https://get2it-be.herokuapp.com/api/users/:id/tasks
 
 Where :id is user id
 
@@ -69,21 +69,21 @@ Takes an object including:
 returns "task created successfully"
 
 #### Get tasks by user
-GET to https://get2it.herokuapp.com/api/users/:id/tasks
+GET to https://get2it-be.herokuapp.com/api/users/:id/tasks
 
 Where :id is user id
 
 Returns an array of objects
 
 #### Update a task
-PUT to https://get2it.herokuapp.com/api/users/tasks/:id
+PUT to https://get2it-be.herokuapp.com/api/users/tasks/:id
 
 Where :id is task id
 
 Returns 1 for successful update
 
 #### Delete a task
-DELETE to https://get2it.herokuapp.com/api/users/tasks/:id
+DELETE to https://get2it-be.herokuapp.com/api/users/tasks/:id
 
 Where :id is task id
 
@@ -206,5 +206,5 @@ These contribution guidelines have been adapted from [this good-Contributing.md-
 
 ## Documentation
 
-See [Frontend Documentation](🚫link to your frontend readme here) for details on the fronend of our project.
+See [Frontend Documentation](🚫link to your frontend readme here) for details on the frontend of our project.
 🚫 Add DS iOS and/or Andriod links here if applicable.
